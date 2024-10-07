@@ -6,10 +6,6 @@
 
 Our paper is online now: https://arxiv.org/abs/xxx
 
-<p align="center">
-  <img src="assets/teaser.png" width="1080">
-</p>
-
 ## Installation
 We need the latest version of [Fastchat](https://github.com/lm-sys/FastChat) `fschat>=0.2.36` , please install `fschat` by directly [cloning Fastchat repository](https://github.com/lm-sys/FastChat/tree/main?tab=readme-ov-file#method-2-from-source). The `AttnGCG` package can be installed by running the following command at the root of this repository:
 ```
