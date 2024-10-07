@@ -1,5 +1,10 @@
-# AttnGCG
-This is the official repository for "AttnGCG: Enhancing Jailbreaking Attacks on LLMs with Attention Manipulation"
+# AttnGCG: Enhancing Jailbreaking Attacks on LLMs with Attention Manipulation
+
+[Zijun Wang](https://asillycat.github.io/), [Haoqin Tu](https://www.haqtu.me/), [Jieru Mei](https://meijieru.com/), [Bingchen Zhao](https://bzhao.me), [Yisen Wang](https://yisenwang.github.io/), [Cihang Xie](https://cihangxie.github.io/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Our paper is online now: https://arxiv.org/abs/xxx
 
 ## Installation
 We need the latest version of [Fastchat](https://github.com/lm-sys/FastChat) `fschat>=0.2.36` , please install `fschat` by directly [cloning Fastchat repository](https://github.com/lm-sys/FastChat/tree/main?tab=readme-ov-file#method-2-from-source). The `AttnGCG` package can be installed by running the following command at the root of this repository:
@@ -83,3 +88,16 @@ bash all_gpt_classify.sh ../../attack_closed_model/attack_gemini_pro/generation
 In order to reproduce the experiment, we provide bash scripts experiments/bash_scripts that can be used out of the box, and all running settings and hyperparameters are included in bash scripts and experiments/configs/.
 
 A note for hardware: all experiments we run use one or multiple NVIDIA A100 GPUs, which have 80G memory per chip.
+
+## License
+`AttnGCG` is licensed under the terms of the MIT license. See LICENSE for more details.
+
+## Citation
+If you find our work useful to your research and applications, please consider citing the paper and staring the repo :)
+
+```bibtex
+@article{Todo}
+```
+
+## Acknowledgement
+This work is partially supported by a gift from Open Philanthropy. We thank the Center for AI Safety, NAIRR Pilot Program, the Microsoft Accelerate Foundation Models Research Program, and the OpenAI Researcher Access Program for supporting our computing needs. Any opinions, findings, conclusions, or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the sponsors' views.
