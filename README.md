@@ -4,10 +4,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Our paper is online now: https://arxiv.org/abs/xxx
+Our paper is online now: https://arxiv.org/abs/2410.09040
 
 ## Installation
-We need the latest version of [Fastchat](https://github.com/lm-sys/FastChat) `fschat>=0.2.36` , please install `fschat` by directly [cloning Fastchat repository](https://github.com/lm-sys/FastChat/tree/main?tab=readme-ov-file#method-2-from-source). The `AttnGCG` package can be installed by running the following command at the root of this repository:
+We need the latest version of [Fastchat](https://github.com/lm-sys/FastChat) `fschat>=0.2.36`, please install `fschat` by directly [cloning Fastchat repository](https://github.com/lm-sys/FastChat/tree/main?tab=readme-ov-file#method-2-from-source). The `AttnGCG` package can be installed by running the following command at the root of this repository:
 ```
 pip install -e .
 ```
@@ -96,7 +96,12 @@ A note for hardware: all experiments we run use one or multiple NVIDIA A100 GPUs
 If you find our work useful to your research and applications, please consider citing the paper and staring the repo :)
 
 ```bibtex
-@article{Todo}
+@article{wang2024attngcgenhancingjailbreakingattacks,
+      title={AttnGCG: Enhancing Jailbreaking Attacks on LLMs with Attention Manipulation}, 
+      author={Zijun Wang and Haoqin Tu and Jieru Mei and Bingchen Zhao and Yisen Wang and Cihang Xie},
+      year={2024},
+      journal={arXiv preprint arXiv:2410.09040}
+}
 ```
 
 ## Acknowledgement
