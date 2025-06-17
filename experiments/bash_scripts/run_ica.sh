@@ -21,6 +21,6 @@ else
     echo "Folder $folder already exists."
 fi
 
-bash run_individual.sh $model $attack ica 10 $offset > ${folder}/${offset}.out &
+bash run_individual.sh $model $attack ica 100 $offset > ${folder}/${offset}.out &
 
 wait
